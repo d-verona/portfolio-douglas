@@ -16,9 +16,9 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center text-primary-foreground">
         <div className="max-w-4xl mx-auto space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Engenharia Geológica
+            Douglas Verona
             <span className="block text-3xl md:text-4xl font-normal mt-4 text-primary-glow">
-              & Soluções Tecnológicas
+              Engenharia Geológica & Soluções Tecnológicas
             </span>
           </h1>
           

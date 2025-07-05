@@ -34,6 +34,59 @@ const ExperienceSection = () => {
         "Mapeamento com drone e análise de dados"
       ],
       skills: ["Sondagens", "Hidrogeologia", "Licenciamento", "Liderança"]
+    },
+    {
+      title: "Gestor Setor de Saúde do Trabalhador",
+      subtitle: "Secretaria de Saúde - PR",
+      responsibilities: [
+        "Coordenação e supervisão de programas de saúde ocupacional",
+        "Implementação de políticas de segurança e bem-estar no trabalho",
+        "Liderança de equipes multidisciplinares",
+        "Estabelecimento de parcerias com órgãos governamentais e sindicatos",
+        "Análise de indicadores de saúde ocupacional",
+        "Realização de inspeções em locais de trabalho",
+        "Investigação de acidentes para medidas corretivas e preventivas"
+      ],
+      skills: ["Saúde Ocupacional", "Gestão", "Liderança", "Políticas Públicas"]
+    },
+    {
+      title: "Gestor Setor de Epidemiologia",
+      subtitle: "Secretaria de Saúde - PR",
+      responsibilities: [
+        "Coleta, análise e interpretação de dados epidemiológicos",
+        "Monitoramento e investigação de doenças e surtos",
+        "Desenvolvimento de estratégias de prevenção e controle de doenças",
+        "Coordenação de redes de vigilância epidemiológica",
+        "Educação em saúde",
+        "Participação em comitês gestores de saúde"
+      ],
+      skills: ["Epidemiologia", "Vigilância", "Análise de Dados", "Saúde Pública"]
+    },
+    {
+      title: "Coordenador de Marketing",
+      subtitle: "Educação e Pós-Graduação",
+      responsibilities: [
+        "Desenvolvimento e implementação de estratégias de marketing",
+        "Planejamento e execução de campanhas de marketing digital",
+        "Gestão das mídias sociais e criação de conteúdo",
+        "Coordenação de eventos e parcerias estratégicas",
+        "Análise de métricas e resultados para otimização",
+        "Atração e engajamento de público-alvo qualificado",
+        "Fortalecimento da imagem e reputação institucional"
+      ],
+      skills: ["Marketing Digital", "Mídias Sociais", "Eventos", "Análise de Dados"]
+    },
+    {
+      title: "Professor e Coordenador",
+      subtitle: "Ensino Técnico e Superior",
+      responsibilities: [
+        "Professor de Pós-Graduação",
+        "Professor de Curso Técnico em Enfermagem",
+        "Desenvolvimento de conteúdo educacional",
+        "Coordenação acadêmica e pedagógica",
+        "Orientação e supervisão de estudantes"
+      ],
+      skills: ["Docência", "Coordenação", "Enfermagem", "Educação"]
     }
   ];
 

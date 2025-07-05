@@ -20,6 +20,30 @@ const ContactSection = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-primary-foreground mb-4">
+                Informações de Contato
+              </h3>
+              <div className="space-y-4 text-primary-foreground/90">
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-accent-glow rounded-full" />
+                  <span><strong>Nome:</strong> Douglas Verona</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-accent-glow rounded-full" />
+                  <span><strong>Cidade:</strong> Curitiba - PR</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-accent-glow rounded-full" />
+                  <span><strong>Telefone:</strong> (41) 99980-4334</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-accent-glow rounded-full" />
+                  <span><strong>Email:</strong> douglas_verona@outlook.com</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold text-primary-foreground mb-4">
                 Especialidades
               </h3>
               <ul className="space-y-3 text-primary-foreground/90">
@@ -41,33 +65,9 @@ const ContactSection = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-accent-glow rounded-full" />
-                  <span>Licenciamento Ambiental</span>
+                  <span>Gestão em Saúde Pública</span>
                 </li>
               </ul>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-primary-foreground mb-4">
-                Áreas de Atuação
-              </h3>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-                  <h4 className="font-semibold text-primary-foreground mb-2">
-                    Geotecnia
-                  </h4>
-                  <p className="text-sm text-primary-foreground/80">
-                    Sondagens, modelagem e análise de solos
-                  </p>
-                </div>
-                <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4">
-                  <h4 className="font-semibold text-primary-foreground mb-2">
-                    Tecnologia
-                  </h4>
-                  <p className="text-sm text-primary-foreground/80">
-                    Sistemas web e automação
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 
