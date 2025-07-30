@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-geology.jpg";
+import heroImage from "@/assets/hero-geology-blue.jpg";
 
 const HeroSection = () => {
   return (
@@ -24,10 +24,19 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 justify-center pt-4 animate-fade-in">
-            <Button size="default" className="shadow-elegant transition-all duration-300 hover:shadow-glow">
+            <Button 
+              size="default" 
+              className="shadow-elegant transition-all duration-300 hover:shadow-glow"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Ver Projetos
             </Button>
-            <Button variant="outline" size="default" className="transition-all duration-300">
+            <Button 
+              variant="outline" 
+              size="default" 
+              className="transition-all duration-300"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Contato
             </Button>
           </div>

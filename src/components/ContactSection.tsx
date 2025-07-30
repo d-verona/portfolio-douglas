@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 const ContactSection = () => {
-  return <section className="py-20 bg-gradient-hero">
+  return <section id="contact" className="py-20 bg-gradient-hero">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">Contato</h2>

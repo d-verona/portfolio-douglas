@@ -26,7 +26,7 @@ const ProjectsSection = () => {
     description: "Aplicação web para coleta de dados em campo que funciona offline, coleta coordenadas GPS e dados de sondagens. Sistema robusto para trabalho em áreas remotas.",
     technologies: ["Offline", "GPS", "Campo", "Progressive Web App"]
   }];
-  return <section className="py-20 bg-background">
+  return <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
