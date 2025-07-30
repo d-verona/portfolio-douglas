@@ -2,34 +2,38 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-accent/5 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5" />
+    <section className="relative h-[80vh] flex items-center justify-center bg-gradient-to-br from-background via-background to-accent/10 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/8 via-transparent to-secondary/8" />
+      <div className="absolute top-20 left-20 w-32 h-32 bg-primary/5 rounded-full blur-xl animate-pulse" />
+      <div className="absolute bottom-32 right-20 w-24 h-24 bg-secondary/5 rounded-full blur-xl animate-pulse delay-700" />
       
       <div className="relative z-10 container mx-auto px-6 text-center text-foreground">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in text-primary">
-            Douglas Verona
-            <span className="block text-3xl md:text-4xl font-normal mt-4 text-secondary">
+        <div className="max-w-3xl mx-auto space-y-6">
+          <div className="animate-fade-in">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary hover-scale">
+              Douglas Verona
+            </h1>
+            <p className="text-xl md:text-2xl font-light text-secondary mb-6">
               Engenharia Geológica & Soluções Tecnológicas
-            </span>
-          </h1>
+            </p>
+          </div>
           
-          <p className="text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto animate-fade-in text-muted-foreground">
+          <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-fade-in text-muted-foreground">
             Especialista em geotecnia, modelagem geológica e desenvolvimento de sistemas 
-            para gestão de dados técnicos. Combinando conhecimento geológico com inovação tecnológica.
+            para gestão de dados técnicos.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-fade-in">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 animate-fade-in">
             <Button 
               size="lg" 
-              className="shadow-elegant transition-all duration-300 hover:shadow-glow"
+              className="shadow-elegant transition-all duration-300 hover:shadow-glow hover-scale"
             >
               Ver Projetos
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              className="transition-all duration-300"
+              className="transition-all duration-300 hover-scale"
             >
               Contato
             </Button>
