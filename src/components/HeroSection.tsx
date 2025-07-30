@@ -1,31 +1,39 @@
 import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-geology.jpg";
+
 const HeroSection = () => {
-  return <section className="relative h-[80vh] flex items-center justify-center bg-gradient-to-br from-background via-background to-accent/10 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/8 via-transparent to-secondary/8" />
-      <div className="absolute top-20 left-20 w-32 h-32 bg-primary/5 rounded-full blur-xl animate-pulse" />
-      <div className="absolute bottom-32 right-20 w-24 h-24 bg-secondary/5 rounded-full blur-xl animate-pulse delay-700" />
+  return (
+    <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/60 to-background/80" />
       
-      <div className="relative z-10 container mx-auto px-6 text-center text-foreground">
-        <div className="max-w-3xl mx-auto space-y-6">
+      <div className="relative z-10 container mx-auto px-6 text-center">
+        <div className="max-w-4xl mx-auto space-y-4">
           <div className="animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary hover-scale">
+            <h1 className="text-3xl md:text-5xl font-bold mb-3 text-primary">
               Douglas Verona
             </h1>
-            <p className="text-xl md:text-2xl font-light text-secondary mb-6">Engenharia Geológica & Inovação</p>
+            <p className="text-lg md:text-xl font-light text-secondary">Engenharia Geológica & Inovação</p>
           </div>
           
-          <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-fade-in text-muted-foreground">Especialista em geotecnia, gestão de obras, ambiental, modelagem e soluções em gestão e inovação.</p>
+          <p className="text-base md:text-lg leading-relaxed max-w-2xl mx-auto animate-fade-in text-muted-foreground">
+            Especialista em geotecnia, gestão de obras, ambiental, modelagem e soluções em gestão e inovação.
+          </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 animate-fade-in">
-            <Button size="lg" className="shadow-elegant transition-all duration-300 hover:shadow-glow hover-scale">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center pt-4 animate-fade-in">
+            <Button size="default" className="shadow-elegant transition-all duration-300 hover:shadow-glow">
               Ver Projetos
             </Button>
-            <Button variant="outline" size="lg" className="transition-all duration-300 hover-scale">
+            <Button variant="outline" size="default" className="transition-all duration-300">
               Contato
             </Button>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default HeroSection;
