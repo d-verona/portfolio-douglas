@@ -2,18 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-
 const ContactSection = () => {
-  return (
-    <section className="py-20 bg-gradient-hero">
+  return <section className="py-20 bg-gradient-hero">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
-            Vamos Conversar
-          </h2>
-          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Interessado em soluções tecnológicas para engenharia? Entre em contato.
-          </p>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">Contato</h2>
+          <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">Maiores informações</p>
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
@@ -65,7 +59,7 @@ const ContactSection = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-accent-glow rounded-full" />
-                  <span>Gestão em Saúde Pública</span>
+                  <span>Gestão de processos</span>
                 </li>
               </ul>
             </div>
@@ -73,9 +67,7 @@ const ContactSection = () => {
 
           <Card className="bg-primary-foreground shadow-glow">
             <CardHeader>
-              <CardTitle className="text-2xl text-primary">
-                Solicitar Orçamento
-              </CardTitle>
+              <CardTitle className="text-2xl text-primary">Contato</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
@@ -102,23 +94,15 @@ const ContactSection = () => {
                 <label className="text-sm font-medium text-foreground mb-1 block">
                   Projeto
                 </label>
-                <Textarea 
-                  placeholder="Descreva seu projeto ou necessidade..." 
-                  rows={4}
-                />
+                <Textarea placeholder="Descreva seu projeto ou necessidade..." rows={4} />
               </div>
-              <Button 
-                className="w-full bg-primary hover:bg-primary-glow shadow-elegant"
-                size="lg"
-              >
+              <Button className="w-full bg-primary hover:bg-primary-glow shadow-elegant" size="lg">
                 Enviar Mensagem
               </Button>
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
